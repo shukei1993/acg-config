@@ -14,4 +14,4 @@ eureka:
 myself:
   data:
     name: shukei
-    pasword: 123
+    age: 28
