@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: acg-eureka
+server:
+  port: 2010
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ #单机配置
