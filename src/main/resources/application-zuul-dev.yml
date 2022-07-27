@@ -16,8 +16,9 @@ zuul:
   routes:
     ribbon:
       eager-load.enabled: true     # 饥饿加载
-    sysmanage.serviceId: hrm-sysmanage #服务名
-    sysmanage.path: /sysmanage/** #哪个路径
+      acg-sysmanage: /sysmanage/**
+#    sysmanage.serviceId: hrm-sysmanage #服务名
+#    sysmanage.path: /sysmanage/** #哪个路径
 #    auth.serviceId: hrm-auth #服务名
 #    auth.path: /auth/** #哪个路径
 #    hrm-file: /file/** # 上传文件配置路由方式2
